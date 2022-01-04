@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Assignment 12</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="primary-menu">
+                        <ul>
+                            <li><a href="#">Age Calucaltor</a></li>
+                            <li><a href="#">Marriage Calculator</a></li>
+                            <li><a href="#">Dollar Carrency</a></li>
+                            <li><a href="#">Complete Form</a></li>
+                            <li><a href="#">Md Ronju Ahmed</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card1 shadow m-5">
+                        <div class="title">
+                            <p>Age Calculator</p>
+                        </div>
+                        <div class="card-header1">
+                            <form id="signup_form" action="">
+                                <div class="form-group">
+                                    <input id="name" class="form-control" name="name" placeholder="Enter your name"
+                                        type="text">
+                                </div>
+                                <div class="form-group">
+                                    <input id="year" placeholder="Enter your date of brith" type="text" name="date"
+                                        class="form-control">
+                                </div>
+                                <button id="submit" class="btn btn-success btn-lg w-100" type="submit"> Check Your
+                                    Result
+                                </button>
+                                <div class="card-footer">
+                                    <p id="result"></p>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card2 m-5 shadow">
+                        <div class="title">
+                            <p>Marriage Age Check</p>
+                        </div>
+                        <div class="card-header2">
+                            <form id="signup_form" action="">
+                                <div class="form-group">
+                                    <input id="namek" class="form-control" placeholder="Enter your name" type="text">
+                                </div>
+                                <div class="form-group">
+                                    <input id="yeark" placeholder="Enter your date of brith" type="text"
+                                        class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <select class="btn-lg w-100" name="" id="selectk">
+                                        <option value="">-Select-</option>
+                                        <option value="">Male</option>
+                                        <option value="">Female</option>
+                                    </select>
+                                </div>
+
+                                <button class="btn btn-primary btn-lg w-100" type="submit"> Check your result
+                                </button>
+                                <div class="card-footer">
+                                    <p id="resultk"></p>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="section1">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card3 m-5 shadow">
+                        <div class="title">
+                            <p>World Top Currency</p>
+                        </div>
+                        <div class="card-header3">
+                            <form id="signup_form" action="">
+                                <div class="form_group">
+                                    <input id="amount" class="form-control" placeholder="Amount" type="text">
+                                </div>
+                                <div class="form-group">
+                                    <select class="currency btn-lg w-100" name="" id="currency">
+                                        <option value="">-select-</option>
+                                        <option value="86">USD</option>
+                                        <option value="60">CAD</option>
+                                        <option value="116">Pound</option>
+                                        <option value="96">Euro</option>
+                                        <option value="283.66">Dinar</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <input id="submit" type="submit" class="form-control" value="Check">
+                                </div>
+                                <div class="currency-header">
+                                    <p id="currency2"></p>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="cord-header">
+                            <h2>Sign up</h2>
+                        </div>
+                        <div class="card-body">
+                            <div class="msg">
+                            </div>
+
+                            <form id="signup_form" action="">
+
+                                <div class="form-group">
+                                    <input id="fname" class="form-control" placeholder="First name" type="text">
+                                </div>
+
+                                <div class="form-group">
+                                    <input id="lname" placeholder="Last name" type="text"
+                                        class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <input id="email" placeholder="Email" type="text"
+                                    class="form-control">
+                                </div>
+
+                                <button class="btn btn-primary btn-lg w-100" type="submit"> Check your result
+                                </button>
+
+                                <div class="card-footer">
+                                    <p id="resultk"></p>
+                                </div>
+
+                            </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+
+    <script src="./agecheck.js"></script>
+    <script src="./marriage.js"></script>
+    <script src="./app.js"></script>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

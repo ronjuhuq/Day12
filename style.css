@@ -1,0 +1,94 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background: #22a6b3;
+}
+.header-logo img {
+    width: 220px;
+}
+
+.primary-menu {}
+.primary-menu ul{
+    margin-bottom: 0;
+    text-align: center;
+}
+.primary-menu ul li {
+    display: inline-block;
+    margin-left: -4px;
+}
+.primary-menu ul li a {
+    display: block;
+    color: #fff;
+    padding: 0 30px;
+    font-size: 20px;
+    line-height: 73px;
+    text-decoration: none;
+
+    border-left: 1px solid #ddd ;
+}
+
+.primary-menu ul li a:hover{
+    background: #be2edd;
+}
+/* section */
+.section{
+    background: #000;
+}
+.section1{
+    background: #636e72;
+}
+.card1{
+    background: rgb(252, 245, 245);
+    padding: 20px;
+    border-radius: 10px;
+}
+.card1 .title{
+    background: #26de81;
+    color: #4b6584;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 30px;
+}
+.card1 .card-header1{}
+.card2{
+    background: #0fb9b1;
+    padding: 20px;
+    border-radius: 10px;
+}
+.card2 .title{
+    background: #ffb8b8;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 30px;
+}
+.card2 .card-header2{}
+.card3{
+    background: #8854d0;
+    padding: 20px;
+    border-radius: 10px;
+}
+.card3 .title{
+    color: #00b894;
+    background: #fdcb6e;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 30px;
+}
+.card3 .card-header3{}
+.card{
+    background: #20bf6b;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.card .cord-header{
+    color: #0984e3;
+    background: #fd79a8;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 30px;
+}
+.card .card-header{}
